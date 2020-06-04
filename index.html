@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="./css/estilo.css" media="screen" />
+    <title>Gasolina vs Etanol</title>
+</head>
+
+<body>
+    <h1>Gasolina vs Etanol - JavaScript</h1>
+
+<div class="img_status">
+    <img src="./img/neutro.PNG" alt="Gasolina vs Etanol - JavaScript" id="status" width="320" height="160">
+</div>
+
+    <form name="calcForm" id="calcForm" action="#">
+
+        <p>
+        Gasolina<br />
+        <input type="text" id="Gasolina" name="txtGas" placeholder="Gasolina" />
+        </p>
+        
+        <p>Etanol<br />
+        <input type="text" id="Etanol" name="txtEtanol" placeholder="Etanol" />
+        </p>
+        
+        <p><input type="button" value="Calcular" onclick="calcular()">
+        </p>
+        <p><input type="reset" value="Limpar" onclick="resetar()">
+        </p>
+        </form>
+        <script src="./js/script.js"></script>
+</body>
+</html>

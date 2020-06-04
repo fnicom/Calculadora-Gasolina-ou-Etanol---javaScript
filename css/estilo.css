@@ -1,0 +1,13 @@
+body {
+        text-align: center;
+        background:#4f4f4f;	
+        font:12px arial, verdana, helvetica, sans-serif;	
+        border-top: 8px solid #cfcfcf;
+        border-left:8px solid #cfcfcf;	
+        border-right:8px solid #696969;
+        border-bottom:8px solid #696969;
+        border-collapse:collapse;
+        color:#ff9900;	
+
+  }
+
